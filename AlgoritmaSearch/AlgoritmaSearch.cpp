@@ -27,7 +27,7 @@ void input() {
 void LinearSearch() {
 	char ch;
 	int ctr;
-	int hitem;
+	int item;
 
 	do {
 		cout << "\nMasukan Element yang mau di cari = ";
