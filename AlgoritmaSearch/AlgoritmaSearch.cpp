@@ -6,3 +6,8 @@ int n;
 int i;
 
 void input() {
+	while (true) {
+		cout << "Masukan jumlah elemen di array = ";
+		cin >> n;
+	
+
