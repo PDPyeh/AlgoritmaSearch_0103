@@ -27,7 +27,7 @@ void input() {
 void LinearSearch() {
 	char ch;
 	int ctr;
-	int item;
+	int hitem;
 
 	do {
 		cout << "\nMasukan Element yang mau di cari = ";
@@ -43,7 +43,13 @@ void LinearSearch() {
 			}
 			i++;
 		}
-		if (i == n) 
+		if (i == n) {
+			cout << "\n" << item << "Tidak ditemukan di Array\n";
+			cout << "\nNomor Comparisons = " << ctr << endl;
+
+			cout << "\nLanjut Mencari? (y/n) = ";
+			cin >> ch;
+		}
 	}
 }
 	
