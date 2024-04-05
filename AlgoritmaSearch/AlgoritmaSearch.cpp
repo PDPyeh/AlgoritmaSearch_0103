@@ -54,7 +54,12 @@ void LinearSearch() {
 }
 
 void display() {
-
+	cout << "Array Elementnya adalah = ";
+	for (i = 0; i < n; i++)
+		cout << arr[i] << " ";
+	cout << endl;
 }
+
+int main()
 	
 
