@@ -33,5 +33,18 @@ void LinearSearch() {
 		cout << "\nMasukan Element yang mau di cari = ";
 		cin >> item;
 
+		ctr = 0;
+		i = 0;
+		while (i < n) {
+			ctr++;
+			if (arr[i] == item) {
+				cout << "\n" << item << "Ditemukan Diposisi" << (i + 1) << endl;
+				break;
+			}
+			i++;
+		}
+		if (i == n) 
+	}
+}
 	
 
