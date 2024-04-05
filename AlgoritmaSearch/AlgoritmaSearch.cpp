@@ -50,7 +50,7 @@ void LinearSearch() {
 			cout << "\nLanjut Mencari? (y/n) = ";
 			cin >> ch;
 		}
-	}
+	} while ((ch == 'y') || (ch == 'Y'));
 }
 	
 
